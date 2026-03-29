@@ -1,0 +1,433 @@
+{
+  "users": [
+    {
+      "id": "569e4788-c5f6-4d95-956b-1649a9bd64cb",
+      "name": "Test User",
+      "email": "test.user.1@example.com",
+      "passwordHash": "$2b$10$aNyYeKHgOhKpNKdD06M5VOgDlS4VBjSRr28hTJbEcmi3S7aoW2bL2",
+      "createdAt": "2026-03-29T18:09:33.854Z"
+    },
+    {
+      "id": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "name": "Flow User",
+      "email": "flow.user.1@example.com",
+      "passwordHash": "$2b$10$3OguZ62SrjrwIvYG1smT1OxzfLvhldnHv.fEJCbVuIxQSd6PiPSpG",
+      "createdAt": "2026-03-29T18:09:52.075Z"
+    },
+    {
+      "id": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "name": "Rishabh",
+      "email": "rishabhhinduja745@gmail.com",
+      "passwordHash": "$2b$10$Q5hz3Xx5qD2hy4phRZRS4e9WZ6fLNcbxEWvSiFjf4vJCiYAtzBlAS",
+      "createdAt": "2026-03-29T18:17:57.785Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "e4261143-89a3-4288-9384-f65d55666b34",
+      "userId": "569e4788-c5f6-4d95-956b-1649a9bd64cb",
+      "name": "Computer Science",
+      "examDate": null,
+      "weakTopics": [
+        "Binary Trees",
+        "Dynamic Programming"
+      ],
+      "strongTopics": [
+        "Sorting",
+        "Hash Maps"
+      ]
+    },
+    {
+      "id": "005da7b2-59da-47ce-a45d-ff162118625f",
+      "userId": "569e4788-c5f6-4d95-956b-1649a9bd64cb",
+      "name": "Mathematics",
+      "examDate": null,
+      "weakTopics": [
+        "Taylor Series"
+      ],
+      "strongTopics": [
+        "Linear Algebra"
+      ]
+    },
+    {
+      "id": "4ab2a996-d89d-40ce-8a6f-ad86d41e87bc",
+      "userId": "569e4788-c5f6-4d95-956b-1649a9bd64cb",
+      "name": "Physics",
+      "examDate": null,
+      "weakTopics": [
+        "Quantum Mechanics"
+      ],
+      "strongTopics": [
+        "Kinematics"
+      ]
+    },
+    {
+      "id": "d86d76d8-14dd-4063-a803-0eefc48a9050",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "name": "Computer Science",
+      "examDate": null,
+      "weakTopics": [
+        "Dynamic Programming"
+      ],
+      "strongTopics": [
+        "Sorting"
+      ]
+    },
+    {
+      "id": "acdf4f32-13ce-4b1a-a770-47551bccea6c",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "name": "Mathematics",
+      "examDate": null,
+      "weakTopics": [
+        "Dynamic Programming"
+      ],
+      "strongTopics": [
+        "Sorting"
+      ]
+    },
+    {
+      "id": "4d054396-0dff-4cbf-b1f7-85f9dd65af18",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "name": "Physics",
+      "examDate": null,
+      "weakTopics": [
+        "Dynamic Programming"
+      ],
+      "strongTopics": [
+        "Sorting"
+      ]
+    },
+    {
+      "id": "d8d2c615-25ed-4f98-b5e3-49554e40bb66",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "name": "Computer Science",
+      "examDate": null,
+      "weakTopics": [
+        "Dynamic Programming",
+        "Taylor Series"
+      ],
+      "strongTopics": [
+        "Sorting",
+        "Kinematics"
+      ]
+    },
+    {
+      "id": "ed1eb6bb-a5ef-4af5-80f6-c8700db96e79",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "name": "Mathematics",
+      "examDate": null,
+      "weakTopics": [
+        "Dynamic Programming",
+        "Taylor Series"
+      ],
+      "strongTopics": [
+        "Sorting",
+        "Kinematics"
+      ]
+    },
+    {
+      "id": "c82eecaf-e3b3-4f17-b487-ecacc2dfa771",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "name": "Physics",
+      "examDate": null,
+      "weakTopics": [
+        "Dynamic Programming",
+        "Taylor Series"
+      ],
+      "strongTopics": [
+        "Sorting",
+        "Kinematics"
+      ]
+    }
+  ],
+  "studyPlans": [
+    {
+      "id": "d541929d-c2b0-432a-8fd7-cb76f8a3794d",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-29",
+      "subject": "Computer Science",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "in-progress"
+    },
+    {
+      "id": "132d5b5c-1479-451b-bd73-02188a7d36e0",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-29",
+      "subject": "Mathematics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "121df27a-4210-4799-99c8-57e0d07d7105",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-29",
+      "subject": "Physics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    },
+    {
+      "id": "74f17f88-14b2-4578-8d5d-1da5e3a8d190",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-30",
+      "subject": "Computer Science",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "pending"
+    },
+    {
+      "id": "ad6ed9ed-bf61-4046-99f5-dbf62f90b15b",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-30",
+      "subject": "Mathematics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "4adf3745-02d3-48e1-8a31-f5acacea0683",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-30",
+      "subject": "Physics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    },
+    {
+      "id": "7259ca63-5f69-43f6-8776-d3cd9145a287",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-31",
+      "subject": "Computer Science",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "pending"
+    },
+    {
+      "id": "f30fd5ac-436b-45fc-b9f4-573e03f8fb08",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-31",
+      "subject": "Mathematics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "6f2145fa-58e1-4dd5-8037-131a7ced9edf",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-03-31",
+      "subject": "Physics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    },
+    {
+      "id": "f76eb6be-0b55-4d76-b956-1421fe903eb4",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-04-01",
+      "subject": "Computer Science",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "pending"
+    },
+    {
+      "id": "602ccd73-c3db-42f1-ad76-e75cd805dcbc",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-04-01",
+      "subject": "Mathematics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "11d78ea3-7188-44b0-a85b-f45e9dddb120",
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "date": "2026-04-01",
+      "subject": "Physics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    },
+    {
+      "id": "e521d854-de58-4db4-a6f7-1c19058cd000",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-29",
+      "subject": "Computer Science",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "in-progress"
+    },
+    {
+      "id": "cbf0b99c-39bc-4c3c-9588-5ad078fb1115",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-29",
+      "subject": "Mathematics",
+      "topic": "Taylor Series",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "8e76144b-06aa-4edf-813f-0c60ad5f44af",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-29",
+      "subject": "Physics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    },
+    {
+      "id": "3a324c08-79f0-4e97-a7c6-39054baacb82",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-30",
+      "subject": "Computer Science",
+      "topic": "Taylor Series",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "pending"
+    },
+    {
+      "id": "8cb4f539-c7ef-41b3-9e4f-73d9e5231f68",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-30",
+      "subject": "Mathematics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "f1fb61c1-8e34-4716-8209-43be9bb10071",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-30",
+      "subject": "Physics",
+      "topic": "Taylor Series",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    },
+    {
+      "id": "c07999c4-390c-4ed0-b116-c4bacf187b0f",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-31",
+      "subject": "Computer Science",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "pending"
+    },
+    {
+      "id": "ad521b1d-feca-4758-a952-0224ebf6dcd1",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-31",
+      "subject": "Mathematics",
+      "topic": "Taylor Series",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "6818f9a0-96c2-49a0-8080-d665e0e27bd5",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-03-31",
+      "subject": "Physics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    },
+    {
+      "id": "efb15469-5fbd-4615-a118-5f767281c8e7",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-04-01",
+      "subject": "Computer Science",
+      "topic": "Taylor Series",
+      "durationMinutes": 40,
+      "priority": "HIGH",
+      "status": "pending"
+    },
+    {
+      "id": "70f9249d-aee9-44bc-8311-5eb68eedbafb",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-04-01",
+      "subject": "Mathematics",
+      "topic": "Dynamic Programming",
+      "durationMinutes": 60,
+      "priority": "MEDIUM",
+      "status": "pending"
+    },
+    {
+      "id": "b524285a-c47b-4471-9ff1-3b833b326f21",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "date": "2026-04-01",
+      "subject": "Physics",
+      "topic": "Taylor Series",
+      "durationMinutes": 80,
+      "priority": "LOW",
+      "status": "pending"
+    }
+  ],
+  "quizData": [
+    {
+      "id": "330c7d5b-d6f7-4985-94a7-cf0600c17ddd",
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "topic": "Neural Plasticity & Focus",
+      "score": 88,
+      "timeTaken": 765,
+      "createdAt": "2026-03-29T18:18:15.617Z"
+    }
+  ],
+  "onboarding": [
+    {
+      "userId": "429671d6-7185-4f75-ad63-9d125a2387ee",
+      "subjects": [
+        "Computer Science",
+        "Mathematics",
+        "Physics"
+      ],
+      "examDate": null,
+      "dailyHours": 3,
+      "weakTopics": [
+        "Dynamic Programming"
+      ],
+      "strongTopics": [
+        "Sorting"
+      ],
+      "updatedAt": "2026-03-29T18:09:52.086Z"
+    },
+    {
+      "userId": "85c08cca-e9b2-4d08-ba1b-b4f40694dd34",
+      "subjects": [
+        "Computer Science",
+        "Mathematics",
+        "Physics"
+      ],
+      "examDate": null,
+      "dailyHours": 3,
+      "weakTopics": [
+        "Dynamic Programming",
+        "Taylor Series"
+      ],
+      "strongTopics": [
+        "Sorting",
+        "Kinematics"
+      ],
+      "updatedAt": "2026-03-29T18:17:57.810Z"
+    }
+  ]
+}
